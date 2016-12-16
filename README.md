@@ -1,6 +1,6 @@
 # Cards
 
-**TODO: Add description**
+**Description: Simple module for a deck of cards.**
 
 ## Installation
 
@@ -21,4 +21,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
       [applications: [:cards]]
     end
     ```
-
