@@ -91,6 +91,9 @@
     <a href="#contains?/2">contains?(deck, card)</a>
   </div>
   
+    <div class="summary-synopsis"><p>Determines whether a deck contains a given card</p>
+</div>
+  
 </div>
 <div class="summary-row">
   <div class="summary-signature">
@@ -168,7 +171,12 @@
     
   </div>
   <section class="docstring">
-    
+    <p>  Determines whether a deck contains a given card</p>
+<p>  ## Examples</p>
+<pre><code class="iex elixir">iex&gt; deck = Cards.create_deck
+iex&gt; Cards.contains?(deck, &quot;Ace of Spades&quot;)
+true</code></pre>
+
   </section>
 </div>
 <div class="detail" id="create_deck/0">
